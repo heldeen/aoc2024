@@ -30,8 +30,15 @@ NOTE: Input file is optional and, if omitted, it's location will be inferred by 
 
 ## Adding New Solutions
 
-A generator program is included in `gen/problem.go` that makes templates for each day. For
-example, `go run main.go 9` will generate the following files:
+A generator program is included 
+
+```bash
+$ go run ./main.go gen 7
+Took 501.833991ms
+```
+
+This executes the logic in `gen/problem.go` that makes templates for each day. For
+example, `go run main.go gen 9` will generate the following files:
 
 * `cmd/importDay9.go`: A "glue" file combining commands for both of the day's problems to simplify wiring up subcommands
 * `challenge/day9/a.go`: The main problem implementation stubbed out for Part A: `func A(*challenge.Input) int`
