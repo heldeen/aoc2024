@@ -7,7 +7,7 @@ import (
 )
 
 func TestB(t *testing.T) {
-	want := 42
+	want := 4
 
 	input := challenge.FromLiteral(sample)
 
