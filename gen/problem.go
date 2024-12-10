@@ -48,7 +48,7 @@ func init() {
 		},
 	}
 
-	a.Flags().StringVarP(&inputFlagValue, inputFlag, inputFlagShort, "./challenge/day1/input.txt", inputFlagUsage)
+	a.Flags().StringVarP(&inputFlagValue, inputFlag, inputFlagShort, "./challenge/day{{ .N }}/input.txt", inputFlagUsage)
 
 	day.AddCommand(a)
 
@@ -63,7 +63,7 @@ func init() {
 		},
 	}
 
-	b.Flags().StringVarP(&inputFlagValue, inputFlag, inputFlagShort, "./challenge/day1/input.txt", inputFlagUsage)
+	b.Flags().StringVarP(&inputFlagValue, inputFlag, inputFlagShort, "./challenge/day{{ .N }}/input.txt", inputFlagUsage)
 
 	day.AddCommand(b)
 
