@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="TestB in aoc2024/challenge/day3" type="GoTestRunConfiguration" factoryName="Go Test" nameIsGenerated="true">
+    <module name="aoc2024" />
+    <working_directory value="$PROJECT_DIR$/challenge/day3" />
+    <root_directory value="$PROJECT_DIR$" />
+    <kind value="PACKAGE" />
+    <package value="github.com/heldeen/aoc2024/challenge/day3" />
+    <directory value="$PROJECT_DIR$" />
+    <filePath value="$PROJECT_DIR$" />
+    <framework value="gotest" />
+    <pattern value="^\QTestB\E$" />
+    <method v="2" />
+  </configuration>
+</component>
